@@ -1,0 +1,39 @@
+:root {
+--cor-de-fundo:rgb(228, 192, 225);
+--cor-fundo-menu:rgb(139, 94, 94);
+}
+body{
+
+background-color: var(--cor-de-fundo);
+}   
+
+.cabecalho {
+    text-align: center;
+    background-color: rgb(228, 163, 206);
+}
+
+img {
+    width: 300px;
+}
+
+.cabecalho-titulo{
+font-family: 'Nosifer', sans-serif;
+font-size: 60px;
+font-weight: 800;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.produto {
+ text-align: center;
+}
+
+@media screen and (max-width: 780px){
+    main {
+        flex-direction: column;
+    }
+}
